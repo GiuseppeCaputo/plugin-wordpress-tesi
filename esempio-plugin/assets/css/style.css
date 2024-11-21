@@ -1,0 +1,18 @@
+.mbp-banner {
+  background-color: #4CAF50; /* Colore di sfondo del banner */
+  color: white; /* Colore del testo */
+  text-align: center; /* Allineamento del testo */
+  padding: 10px; /* Spaziatura interna */
+  font-size: 20px; /* Dimensione del testo */
+  text-decoration: none; /* Rimuove la sottolineatura dal link */
+  position: fixed; /* Posizione fissa sul lato della pagina */
+  left: -125px; /* Posizionamento fuori dalla vista */
+  top: 50%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Centra verticalmente con translate */
+  transition: left 0.3s; /* Aggiunge transizione per l'animazione */
+}
+
+
+<body>
+ <a href="https://www.example.com" class="mcb-banner" id="mcb-banner">Contattami</a> <!-- Sostituisci con il link desiderato --> 
+</body>
