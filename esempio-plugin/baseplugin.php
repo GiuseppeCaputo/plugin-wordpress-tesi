@@ -6,7 +6,7 @@
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
- * Author:            Mario Rossi
+ * Author:            Giuseppe Caputo
  * Author URI:        https://author.example.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -30,8 +30,5 @@ function mbp_plugin_style_scripts() {
 	wp_enqueue_script( 'mbp-script', plugins_url('/assets/js/script.js',__FILE__), array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'mbp_plugin_style_scripts' );
-
-
-
 
 ?> 
