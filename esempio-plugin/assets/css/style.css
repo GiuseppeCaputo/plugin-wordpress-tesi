@@ -11,8 +11,3 @@
   transform: translateY(-50%); /* Centra verticalmente con translate */
   transition: left 0.3s; /* Aggiunge transizione per l'animazione */
 }
-
-
-<body>
- <a href="https://www.example.com" class="mcb-banner" id="mcb-banner">Contattami</a> <!-- Sostituisci con il link desiderato --> 
-</body>
